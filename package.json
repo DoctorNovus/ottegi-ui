@@ -1,7 +1,10 @@
 {
     "name": "@ottegi/ui",
-    "version": "0.1.0",
-    "description": "",
+    "version": "0.1.1",
+    "description": "Welcome to the Ottegi UI components. These components are built in exalt but can be used in other frameworks.",
+    "publishConfig": {
+        "access": "public"
+    },
     "main": "dist/index.js",
     "scripts": {
         "build": "exalt build",
@@ -18,10 +21,18 @@
         "./liquid-dropper": "./dist/liquid-dropper",
         "./liquid-fill": "./dist/liquid-fill"
     },
-    "author": "",
-    "license": "ISC",
+    "author": "Daniel Wedding",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/danielwedding/ottegi-ui.git"
+    },
+    "bugs": {
+        "url": "https://github.com/danielwedding/ottegi-ui/issues"
+    },
+    "homepage": "https://github.com/danielwedding/ottegi-ui#",
     "peerDependencies": {
-        "@exalt/core": "^0.4.x"
+        "@exalt/core": "^0.5.0"
     },
     "devDependencies": {
         "@exalt/cli": "^0.5.1",
