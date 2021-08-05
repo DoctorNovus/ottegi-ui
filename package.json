@@ -1,0 +1,31 @@
+{
+    "name": "@ottegi/ui",
+    "version": "0.1.0",
+    "description": "",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "exalt build",
+        "prepublishOnly": "npm run build"
+    },
+    "keywords": [],
+    "files": [
+        "dist"
+    ],
+    "exports": {
+        ".": "./dist/index.js",
+        "./liquid-button": "./dist/liquid-button",
+        "./liquid-div": "./dist/liquid-div",
+        "./liquid-dropper": "./dist/liquid-dropper",
+        "./liquid-fill": "./dist/liquid-fill"
+    },
+    "author": "",
+    "license": "ISC",
+    "peerDependencies": {
+        "@exalt/core": "^0.4.x"
+    },
+    "devDependencies": {
+        "@exalt/cli": "^0.5.1",
+        "@exalt/core": "^0.5.0",
+        "@exalt/toolchain": "^0.5.1"
+    }
+}

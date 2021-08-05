@@ -1,0 +1,27 @@
+.size-small {
+    width: 2em;
+    height: 2em;
+}
+
+.size-medium {
+    width: 4em;
+    height: 4em;
+}
+
+.size-large {
+    width: 8em;
+    height: 8em;
+}
+
+.loader {
+    position: fixed;
+}
+
+.centered {
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+}

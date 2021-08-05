@@ -1,0 +1,15 @@
+{
+    "name": "@ottegi/ui",
+    "input": {
+        "index": "src/index.js",
+        "liquid-button": "src/liquid/liquid-button/liquid-button.js",
+        "liquid-div": "src/liquid/liquid-div/liquid-div.js",
+        "liquid-dropper": "src/liquid/liquid-dropper/liquid-dropper.js",
+        "liquid-fill": "src/liquid/liquid-fill/liquid-fill.js"
+    },
+    "toolchain": "@exalt/toolchain",
+    "toolchainOptions": {
+        "library": true,
+        "external": ["@exalt/core"]
+    }
+}
